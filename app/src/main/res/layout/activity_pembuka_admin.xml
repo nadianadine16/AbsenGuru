@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pembukaadmin"
+    android:orientation="vertical"
+    tools:context=".PembukaAdmin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HALAMAN ADMIN"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="15pt"
+        android:layout_gravity="center"
+        android:textColor="#050404"
+        android:layout_marginTop="130dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:background="#F44336"
+        android:layout_marginTop="40dp"
+        android:onClick="keAdmin"
+        android:text="DATA GURU"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:onClick="keSiswa"
+        android:background="#FFC107"
+        android:layout_marginTop="40dp"
+        android:text="DATA SISWA"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="keRekap"
+        android:textStyle="bold"
+        android:background="#85DAD2"
+        android:layout_marginTop="40dp"
+        android:text="Rekap Guru"/>
+
+
+</LinearLayout>
